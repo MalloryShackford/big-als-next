@@ -1,0 +1,43 @@
+.aboutContainer {
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 0 2.5rem 0 2.5rem;
+}
+.h1About {
+	text-align: center;
+}
+
+.imgAbout {
+	display: block;
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 7%;
+}
+.pAbout {
+	margin-top: 2rem;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+.spanTel,
+.contactContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+	font-weight: 700;
+	color: inherit;
+	margin: 0;
+}
+.miniLogoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.miniLogoContainer a {
+	display: inline-flex;
+}

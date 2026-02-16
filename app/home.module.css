@@ -1,0 +1,41 @@
+:global(h1) {
+	font-family: "Solway", serif;
+}
+
+.container {
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.imgLogo {
+	width: 40%;
+	height: auto;
+}
+
+.pizzaBoy {
+	display: block;
+	width: 15%;
+	height: 15%;
+	margin: 0 auto;
+	border-radius: 7%;
+}
+.pHome {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.holidays {
+	font-weight: bold;
+}
+
+.pTele,
+.pAddress {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}

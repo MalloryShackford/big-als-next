@@ -1,0 +1,80 @@
+.menuContainer {
+	width: 80%;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 2.5rem;
+	text-align: center;
+}
+
+.h1Menu {
+	margin: 0.5rem 0 1rem;
+	text-align: center;
+}
+
+.embedWrap {
+	position: relative;
+	width: 100%;
+	max-width: 900px;
+	margin: 1.6em auto 0.9em;
+	aspect-ratio: 11 / 18; /* close to your old 163.6364% padding trick */
+	box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+	overflow: hidden;
+	border-radius: 7%;
+}
+
+.iframe {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 8px;
+}
+
+.pdfMenu {
+	margin: 1rem 0 0.5rem;
+}
+
+.pdfLink {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+.contactContainer {
+	margin-top: 0.75rem;
+}
+
+.pContact {
+	margin: 0;
+}
+
+.spanTel a {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+.miniLogoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5rem;
+}
+
+.miniLogoContainer a {
+	display: inline-flex;
+}
+
+@media (max-width: 480px) {
+	.imgPizza {
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.pdfFrame {
+		height: 450px;
+	}
+}
