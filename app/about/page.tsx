@@ -17,7 +17,7 @@ export default function AboutPage() {
 
       <div className={styles.aboutContainer}>
         <Image
-          src="/assets/famPizzaPic.JPG"
+          src="/assets/famPizzaPic.jpg"
           className={styles.imgAbout}
           alt="Tim Maslow, Mallory Shackford, Mohammed Islam, and pizza"
           width={900}
