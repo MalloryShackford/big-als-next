@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Solway } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+// import ClosedNoticePopup from "./components/ClosedNoticePopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
         className={`${solway.className} ${geistMono.variable} antialiased`}
       >
         <Navbar />
+        {/* <ClosedNoticePopup /> */}
         {children}
       </body>
     </html>
