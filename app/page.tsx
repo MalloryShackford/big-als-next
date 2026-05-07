@@ -37,10 +37,8 @@ export default function HomePage() {
       <p className={styles.pContact}>
         Tuesday - Saturday: 12PM - 8PM or &apos;til we run out
       </p>
-      <p className={styles.pContact}>
-        Trying out Sunday: 12PM - 5PM or &apos;til we run out
-      </p>
-      <p className={styles.pContact}>Monday: Closed</p>
+  
+     <p className={styles.pContact}>Sunday & Monday: Closed</p>
 
       <div className={styles.contactContainer}>
         <p className={styles.pTele}>
