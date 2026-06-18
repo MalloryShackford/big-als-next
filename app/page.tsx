@@ -33,7 +33,7 @@ export default function HomePage() {
       <p className={styles.pHome}>We are cash &amp; takeout only!</p>
 
       <p className={styles.pContact}>
-        <strong>Holiday Closure:</strong> Big Al&apos;s Pizza will be closed June 28-July 9 for a family holiday. We&apos;ll reopen July 10 and look forward to seeing you then!
+        <strong>Holiday Closure:</strong> Big Al&apos;s Pizza will be closed June 30-July 9 for a family holiday. We&apos;ll reopen July 10 and look forward to seeing you then!
       </p>
 
       <p className={styles.pContact}>Hours:</p>
